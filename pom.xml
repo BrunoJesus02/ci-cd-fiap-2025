@@ -26,7 +26,7 @@
   </dependencies>
 
   <build>
-    <finalName>unicorn-web-project</finalName>
+    <finalName>web-app-fiap</finalName>
   </build>
 
 </project>
