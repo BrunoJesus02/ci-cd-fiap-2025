@@ -35,6 +35,9 @@
     <p class="content">
         Criação de uma pipeline CI/CD automática para fins de trabalho na faculdade FIAP na aula de DevOps
     </p>
+    <p class="content">
+        Version 1.0
+    </p>
 
 </section>
 
