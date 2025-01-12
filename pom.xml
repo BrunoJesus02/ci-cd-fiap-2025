@@ -1,12 +1,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.wildrydes.app</groupId>
-  <artifactId>unicorn-web-project</artifactId>
+  <groupId>com.fiap.app</groupId>
+  <artifactId>web-app-fiap</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>unicorn-web-project Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <distributionManagement>
+    <repository>
+      <id>webapp-web-app-packages</id>
+      <name>webapp-web-app-packages</name>
+      <url>https://webapp-627009435518.d.codeartifact.us-east-1.amazonaws.com/maven/web-app-packages/</url>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,7 +24,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
   <build>
     <finalName>unicorn-web-project</finalName>
   </build>
+
 </project>
