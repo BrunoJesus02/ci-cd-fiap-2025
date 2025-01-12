@@ -8,7 +8,7 @@
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .site-header .title{
-            background: url(images/landing-page.jpeg) no-repeat top;
+            background: url(images/fiap.png) no-repeat top;
             background-size: cover;
             padding-bottom: 70.2753441802%;
             margin: 0;
