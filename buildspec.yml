@@ -19,4 +19,6 @@ phases:
 artifacts:
   files:
     - target/web-app-fiap.war
+    - appspec.yml
+    - scripts/**/*
   discard-paths: no
